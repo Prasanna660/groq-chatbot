@@ -7,7 +7,7 @@ client = Groq(api_key=api_key)
 
 # Streamlit app for generating text advertisements
 def main():
-    st.title("AI-Powered Advertisement Generator")
+    st.title("Advertisement generator")
     st.write("Generate creative text advertisements for your product or service!")
 
     # Input fields for user
